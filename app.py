@@ -42,4 +42,4 @@ if st.button("Predict"):
 
     car_price = model.predict(input_data_model)
 
-    st.markdown("Your car price is going to be:  ₹"+ str(car_price[0])
+    st.markdown("Your car price is going to be:  ₹"+ str(car_price[0]))
